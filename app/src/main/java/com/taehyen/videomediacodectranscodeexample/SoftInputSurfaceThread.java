@@ -31,7 +31,7 @@ public class SoftInputSurfaceThread extends Thread {
     private static final String MIME_TYPE = "video/avc";
 
     private static final int BIT_RATE = 16000000;
-    private static final int IFRAME_INTERVAL = 0;
+    private static final int IFRAME_INTERVAL = 10;
 
     private int width, height, frameRate, orientation;
 
